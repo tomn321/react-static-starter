@@ -14,6 +14,13 @@ body {
   background-color: #464646;
   color: whitesmoke;
 }
+@media only screen and (max-width: 767px) {
+  body {
+    /* The file size of this background image is 93% smaller
+       to improve page load speed on mobile internet connections */
+    background-image: url(./content/imgs/delta5_800x609.png);
+  }
+}
 
 a {
   text-decoration: none;
