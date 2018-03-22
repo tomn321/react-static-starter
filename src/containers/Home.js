@@ -1,9 +1,23 @@
 import React from 'react'
 //
-import backgroundImg from '../content/imgs/delta5_3398x2261.jpg'
+
+import { Router, Link } from 'react-static'
+
 export default () => (
   <div>
-    <h1 style={{ textAlign: 'center' }}>Thomas Nguyen</h1>
-    {/* <img src={logoImg} alt="" /> */}
+    <h2 class="name">Thomas Nguyen</h2>
+    <div class="title">ENGINEER.</div>
+    <div class="container">
+      <Link to="/contact">
+        <div class="box home-btn">
+        CONTACT
+        </div>
+      </Link>
+      <Link to="/resume">
+      <div class="box home-btn">
+      RESUME
+      </div>
+      </Link>
+    </div>
   </div>
 )

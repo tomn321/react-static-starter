@@ -24,10 +24,14 @@ body {
 
 a {
   text-decoration: none;
-  color: #108db8;
+  color: whitesmoke;
   font-weight: bold;
 }
-
+a:hover {
+  letter-spacing: 0.15rem;
+  font-weight: 100;
+  color: #464646;
+}
 img {
   max-width: 100%;
 }
@@ -45,4 +49,39 @@ nav a {
 
 .content {
   padding: 1rem;
+}
+.name {
+  text-align: center;
+  margin-top: 10%;
+  font-weight: 100;
+  letter-spacing: .2rem;
+}
+.title {
+  text-transform: capitalize;
+  font-size: 6rem;
+  font-weight: 200;
+  text-align: center;
+  letter-spacing: 1rem;
+}
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+}
+
+.box {
+  width: 150px;
+  margin: 20px;
+  text-align: center; 
+}
+.home-btn {
+  border: 2px solid;
+  border-color: white;
+  padding: 1rem 1.5rem;
+  margin: 10px;
+}
+.noColor {
+  text-decoration: none;
 }

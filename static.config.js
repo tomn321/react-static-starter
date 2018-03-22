@@ -29,6 +29,14 @@ export default {
         }))
       },
       {
+        path: "/contact",
+        component: "src/containers/Contact"
+      },
+      {
+        path: "/resume",
+        component: "src/containers/Resume"
+      },
+      {
         is404: true,
         component: "src/containers/404"
       }
